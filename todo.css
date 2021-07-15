@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background-color: rgb(28, 23, 49);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(198, 204, 204);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 460px;
+  height: 600px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  margin: 12px 0;
+}
+.add-element {
+  margin: 12px 0;
+}
+input {
+  padding: 6px 4px;
+  width: 70%;
+}
+button {
+  padding: 7px 14px;
+  background-color: rgb(132, 180, 84);
+  border: none;
+  border-radius: 4px;
+  color: rgb(247, 247, 247);
+}
+.element-list {
+  height: 550px;
+  overflow: auto;
+}
+ul {
+  padding: 15px;
+}
+li {
+  list-style: none;
+  padding: 10px 5px;
+  background-color: rgb(247, 158, 158);
+  margin: 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: rgba(67, 113, 238, 0.76);
+}
+li:hover {
+  background-color: rgb(139, 103, 128);
+}
+.checked {
+  text-decoration: line-through;
+  background-color: teal;
+}
